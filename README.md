@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ React is a JavaScript library (not a framework) that creates user interfaces (UIs) in a predictable and efficient way using declarative code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilize it with other libraries. React.js solves problems of better handling of dynamic data for faster response times. It lets you design simple views for every application state. React.js  responds to data changes instantly and renders the right components for a smooth user experience.
+
 1. Describe component state.
 
+ The state is an instance of React Component Class can be defined as an object of a set of observable properties that control the behavior of the component. In other words, the State of a component is an object that holds some information that may change over the lifetime of the component.
+
 1. Describe props.
+ 
+  “Props” is an object. and also a special keyword in React, which stands for properties and is being used for passing data from one component to another. Furthermore, props data is read-only, which means that data coming from the parent should not be changed by child components.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+ Side effects are basically anything that affects something outside of the scope of the current function that's being executed. you can sync effects of certain state or props by putting them as arguments in the dependency array of the useEffect.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
