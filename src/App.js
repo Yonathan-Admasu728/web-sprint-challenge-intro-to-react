@@ -8,6 +8,7 @@ import styled from "styled-components";
 
 const NameD = styled.div`
 justify-content: space-between;
+color: rgb(122, 84, 179);
 &:hover {
   font-size: 20px;
   transition: 0.5s all ease-in-out;
@@ -23,6 +24,7 @@ transition: 0.5s all ease-in-out;
 
 const ButD = styled.div`
 text-decoration: block;
+color: rgb(122, 84, 179);
 margin: 1px;
 cursor: pointer;
 
@@ -30,7 +32,7 @@ cursor: pointer;
   font-size: 20px;
   transition: 0.5s all ease-in-out;
   background-color: 'rgb(60, 58, 63)';
-  fontColor: rgb(97, 16, 16);
+  color: rgb(97, 16, 16);
   border: 2px solid rgb(60, 58, 63);
   box-shadow: '0px 1px 6px -2px rgb(60, 58, 63)';
 }
